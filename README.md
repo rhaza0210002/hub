@@ -1,3 +1,13 @@
+simple à retenir
+features = ce que l’utilisateur voit et utilise
+lib = ce qui sert partout
+services = ce qui parle avec l’extérieur (Supabase, API, BDD)
+Petit exemple très pratique
+features/header/Header.tsx
+features/header/useHeader.ts
+services/users.ts
+lib/date.ts
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,4 +44,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
 # hub
