@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-blink: blink 1s step-end infinite;
+  --animate-neon-pulse: neon-pulse 2s ease-in-out infinite;
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: var(--color-pink-500);
+    }
+  }
+
+  @keyframes neon-pulse {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 2px rgba(244, 63, 94, 0.6));
+    }
+    50% {
+      filter: drop-shadow(0 0 8px rgba(244, 63, 94, 1));
+    }
+  }
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 2px solid rgba(34, 211, 238, 0.9);
+  animation:
+    typewriter 1.8s steps(13, end) 0.2s forwards,
+    blink-cursor 0.8s step-end infinite 1.6s;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 17ch;
+  }
+}
+
+@keyframes blink-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(34, 211, 238, 0.9);
+  }
+}
