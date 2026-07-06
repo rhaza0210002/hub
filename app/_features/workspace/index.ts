@@ -1,0 +1,1 @@
+export { WorkspaceFeature } from "./WorkspaceFeature";

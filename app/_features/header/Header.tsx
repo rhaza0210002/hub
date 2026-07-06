@@ -54,6 +54,12 @@ export function Header() {
       color: "text-rose-400",
     },
     {
+      href: "#conversation",
+      src: "https://img.icons8.com/dusk/64/chat-message--v1.png",
+      alt: "Conversation IA",
+      color: "text-cyan-400",
+    },
+    {
       href: "#settings",
       src: "https://img.icons8.com/dusk/64/settings.png",
       alt: "Configuration Système",

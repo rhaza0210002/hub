@@ -1,5 +1,6 @@
 import React from "react";
 import DataList from "@/app/_components/DataItem";
+import { ConversationFeature } from "./_features/conversation";
 import { Header } from "./_features/header/Header";
 export default function Home() {
   return (
@@ -8,10 +9,12 @@ export default function Home() {
         <Header />
         <header className="space-y-2">
           <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-            Mon Projet Web
+            Mon Projet Web — fenêtre conversationnelle IA style MSN
           </h1>
           <p className="text-gray-400">Interface Hub Multi-outils</p>
         </header>
+
+        <ConversationFeature />
 
         <section className="w-full py-4" aria-label="Section de test Supabase">
           <p className="text-sm text-gray-400 mb-6">
